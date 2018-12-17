@@ -40,4 +40,35 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run(songs)
+  help
+  until reply == "exit"
+  puts "Please enter a command:"
+  reply = gets.chomp 
+    if reply == "help"
+      help
+    elsif reply == "list"
+      list(songs)
+    elsif reply == "exit"
+      exit_jukebox
+      break
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
