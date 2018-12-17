@@ -21,5 +21,5 @@ end
 
 def list(songs)
   songs.each_with_index { |songName, index|
-    puts "#{index + 1}. #{songName}"
+    puts "#{index + 1}. #{songName}" }
 end
