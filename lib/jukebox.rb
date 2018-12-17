@@ -42,9 +42,9 @@ end
 
 def run(songs)
   help
-  until reply == "exit"
   puts "Please enter a command:"
   reply = gets.chomp 
+  until reply == "exit"
     if reply == "help"
       help
     elsif reply == "list"
