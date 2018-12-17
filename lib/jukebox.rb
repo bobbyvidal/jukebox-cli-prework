@@ -53,7 +53,10 @@ def run(songs)
       exit_jukebox
       break
     elsif reply == "play"
-      
+      play(songs)
+    end
+  end
+end
       
   
   
